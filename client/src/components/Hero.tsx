@@ -97,7 +97,7 @@ const Hero = () => {
               variants={fadeIn}
               className="text-2xl md:text-3xl font-medium text-foreground mb-6"
             >
-              <span className="text-primary">Delivering Real-World Impact with Cloud, Code, and AI</span> 
+              <span className="text-primary">Cloud & AI Enthusiast</span> Building Scalable Solutions
             </motion.h2>
             
             <motion.p 
@@ -107,9 +107,8 @@ const Hero = () => {
               variants={fadeIn}
               className="text-muted-foreground mb-8 max-w-lg text-lg"
             >
-              I’m a developer who enjoys turning ideas into reliable, real-world systems. My journey has taken me from building full-stack web apps to integrating AI for intelligent automation, and deploying those solutions on scalable cloud infrastructure using tools like AWS, GCP, Docker, and Kubernetes. Whether it's analyzing transit data, streamlining e-commerce operations, or automating invoices with machine learning, I focus on creating systems that are efficient, scalable, and meaningful.
-
-
+              Actively seeking roles in Cloud/DevOps/Software Engineering. 
+              Passionate about leveraging technology to solve real-world problems.
             </motion.p>
             
             <motion.div 
@@ -151,7 +150,7 @@ const Hero = () => {
                 <Linkedin size={18} />
               </a>
               <a 
-                href="https://github.com/siddhanth2001" 
+                href="https://www.github.com" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 aria-label="GitHub" 
