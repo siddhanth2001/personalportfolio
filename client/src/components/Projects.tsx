@@ -16,7 +16,7 @@ const projects = [
     description: "Real-time data analysis system for optimizing public transit; handled over 1M records/day.",
     techStack: ["Python", "PostgreSQL", "GCP"],
     imageUrl: "https://i.postimg.cc/528bJdzS/image.png",
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/siddhanth2001/Trimet_transit_analysis",
     delay: 0.1
   },
   {
@@ -24,7 +24,7 @@ const projects = [
     description: "Cloud-native microservices deployment using IaC and CI/CD for scalability.",
     techStack: ["Docker", "Kubernetes", "Terraform", "AWS"],
     imageUrl: "https://i.postimg.cc/hvJR3Hgx/image.png",
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/siddhanth2001/E-Commerce-Devops-Implementation",
     delay: 0.2
   },
   {
@@ -32,7 +32,7 @@ const projects = [
     description: "Tool for automating receipt processing and organizing expenses using AI.",
     techStack: ["Flask", "GCP Vision API", "Gemini Pro API"],
     imageUrl: "https://i.postimg.cc/RFFkNjW8/image.png",
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/siddhanth2001/AI-Powered-Invoice-Tracker",
     delay: 0.3
   }
 ];
@@ -47,10 +47,10 @@ const ProjectCard = ({ title, description, techStack, imageUrl, githubUrl, delay
       className="bg-background rounded-lg shadow-lg overflow-hidden transition-all hover:shadow-xl"
     >
       <img src={imageUrl} alt={title} className="w-full h-48 object-cover" />
-      
+
       <div className="p-6">
         <h3 className="text-xl font-bold text-primary mb-2">{title}</h3>
-        
+
         <div className="flex flex-wrap gap-2 mb-4">
           {techStack.map((tech, index) => (
             <span key={index} className="px-2 py-1 bg-primary bg-opacity-10 text-primary rounded text-xs font-medium">
@@ -58,11 +58,11 @@ const ProjectCard = ({ title, description, techStack, imageUrl, githubUrl, delay
             </span>
           ))}
         </div>
-        
+
         <p className="text-muted-foreground mb-6">
           {description}
         </p>
-        
+
         <a 
           href={githubUrl} 
           target="_blank" 
@@ -89,7 +89,7 @@ const Projects = () => {
         >
           <h2 className="text-3xl font-bold text-primary inline-block pb-2 border-b-4 border-secondary">Featured Projects</h2>
         </motion.div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <ProjectCard 
