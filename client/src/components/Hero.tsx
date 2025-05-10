@@ -225,7 +225,7 @@ const Hero = () => {
                   className="relative w-64 h-64 md:w-80 md:h-80 mx-auto rounded-xl bg-muted border-2 border-white/40 shadow-xl overflow-hidden"
                 >
                   <img 
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=800" 
+                    src="https://i.postimg.cc/Y972JDVs/1697314220972.jpg" 
                     alt="Siddhanth Jain headshot" 
                     className="object-cover w-full h-full"
                   />
