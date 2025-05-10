@@ -44,37 +44,47 @@ const ProjectCard = ({ title, description, techStack, imageUrl, githubUrl, delay
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.2 }}
       transition={{ delay, duration: 0.5 }}
-      className="bg-background rounded-lg shadow-lg overflow-hidden transition-all hover:shadow-xl"
+      className="bg-background rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all flex flex-col"
     >
       <img src={imageUrl} alt={title} className="w-full h-48 object-cover" />
-      
-      <div className="p-6">
-        <h3 className="text-xl font-bold text-primary mb-2">{title}</h3>
-        
-        <div className="flex flex-wrap gap-2 mb-4">
-          {techStack.map((tech, index) => (
-            <span key={index} className="px-2 py-1 bg-primary bg-opacity-10 text-primary rounded text-xs font-medium">
-              {tech}
-            </span>
-          ))}
+
+      <div className="p-6 flex flex-col flex-grow justify-between">
+        {/* Title and Stack */}
+        <div>
+          <h3 className="text-xl font-bold text-primary mb-3">{title}</h3>
+
+          <div className="flex flex-wrap gap-2 mb-4">
+            {techStack.map((tech, index) => (
+              <span
+                key={index}
+                className="px-2 py-1 bg-primary/10 text-primary rounded text-xs font-medium"
+              >
+                {tech}
+              </span>
+            ))}
+          </div>
+
+          <p className="text-muted-foreground text-sm">
+            {description}
+          </p>
         </div>
-        
-        <p className="text-muted-foreground mb-6">
-          {description}
-        </p>
-        
-        <a 
-          href={githubUrl} 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="inline-flex items-center text-accent hover:underline"
-        >
-          <Github className="mr-2 h-4 w-4" /> View on GitHub
-        </a>
+
+        {/* GitHub Link */}
+        <div className="mt-6">
+          <a 
+            href={githubUrl} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center text-accent hover:underline font-medium"
+          >
+            <Github className="mr-2 h-4 w-4" /> View on GitHub
+          </a>
+        </div>
       </div>
     </motion.div>
   );
 };
+
 
 const Projects = () => {
   return (

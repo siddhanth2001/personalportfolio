@@ -6,7 +6,8 @@ interface ExperienceItemProps {
   company: string;
   period: string;
   description: string;
-  icon: React.ReactElement;
+  iconUrl?: string;
+  icon?: React.ReactElement;
   delay: number;
 }
 
@@ -17,7 +18,7 @@ const experiences = [
     period: "Jan 2025 - Present",
     description:
       "Researching how Artificial Intelligence can enhance personalized recommendations by adapting to user behavior. Focusing on real-world applications in mobile apps, education platforms, and healthcare systems..",
-    icon: <Building2 className="text-white" />,
+    iconUrl: "https://i.postimg.cc/RZyFv5XP/image.png",
     delay: 0.1,
   },
   {
@@ -26,7 +27,7 @@ const experiences = [
     period: "May 2024 - Present",
     description:
       "Assisted guests with check-ins and service requests while managing basic IT operations such as troubleshooting front desk systems and coordinating with technical support.",
-    icon: <Laptop className="text-white" />,
+    iconUrl: "https://i.postimg.cc/RZyFv5XP/image.png",
     delay: 0.2,
   },
   {
@@ -46,6 +47,7 @@ const ExperienceItem = ({
   period,
   description,
   icon,
+  iconUrl,
   delay,
 }: ExperienceItemProps) => {
   return (
@@ -70,8 +72,14 @@ const ExperienceItem = ({
         </div>
 
         <div className="flex items-center mb-4">
-          <div className="w-10 h-10 bg-primary bg-opacity-10 rounded-lg flex items-center justify-center mr-3">
-            {icon}
+          <div className="w-12 h-12 bg-primary bg-opacity-10 rounded-lg flex items-center justify-center mr-3 p-2">
+            {iconUrl ? (
+              <img src={iconUrl} alt={company} className="w-full h-full object-contain" />
+            ) : icon ? (
+              icon
+            ) : (
+              <Building2 className="text-white" />
+            )}
           </div>
           <h4 className="font-semibold">{company}</h4>
         </div>

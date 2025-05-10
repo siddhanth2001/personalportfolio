@@ -168,8 +168,8 @@ const Contact = () => {
               
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <div className="w-12 h-12 bg-primary bg-opacity-10 rounded-lg flex items-center justify-center mr-4">
-                    <Mail className="text-xl text-primary" />
+                  <div className="w-12 h-12 bg-primary bg-opacity-10 rounded-lg flex items-center justify-center mr-4 p-2">
+                    <img src="https://i.postimg.cc/kXyKM4bT/image.png" alt="Email" className="w-full h-full object-contain" />
                   </div>
                   <div>
                     <h4 className="font-medium text-foreground">Email</h4>
@@ -180,8 +180,8 @@ const Contact = () => {
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="w-12 h-12 bg-primary bg-opacity-10 rounded-lg flex items-center justify-center mr-4">
-                    <Phone className="text-xl text-primary" />
+                  <div className="w-12 h-12 bg-primary bg-opacity-10 rounded-lg flex items-center justify-center mr-4 p-2">
+                    <img src="https://i.postimg.cc/zGXWyrw8/image.png" alt="Phone" className="w-full h-full object-contain" />
                   </div>
                   <div>
                     <h4 className="font-medium text-foreground">Phone</h4>
@@ -192,8 +192,8 @@ const Contact = () => {
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="w-12 h-12 bg-primary bg-opacity-10 rounded-lg flex items-center justify-center mr-4">
-                    <MapPin className="text-xl text-primary" />
+                  <div className="w-12 h-12 bg-primary bg-opacity-10 rounded-lg flex items-center justify-center mr-4 p-2">
+                    <img src="https://i.postimg.cc/3NT0Y5JM/image.png" alt="Location" className="w-full h-full object-contain" />
                   </div>
                   <div>
                     <h4 className="font-medium text-foreground">Location</h4>
