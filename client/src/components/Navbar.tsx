@@ -32,8 +32,8 @@ const Navbar = () => {
   return (
     <header className={`fixed w-full bg-background z-50 transition-all duration-300 ${isScrolled ? 'shadow-md py-2' : 'py-4'}`}>
       <nav className="container mx-auto px-6 flex justify-between items-center">
-        <Link href="/">
-          <a className="text-2xl font-bold text-primary">SJ</a>
+        <Link href="/" className="text-2xl font-bold text-primary">
+          SJ
         </Link>
         
         {/* Desktop Navigation */}

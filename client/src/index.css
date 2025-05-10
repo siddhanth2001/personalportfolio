@@ -63,8 +63,65 @@
 
 .hero-pattern {
   background-color: white;
-  background-image: radial-gradient(#e6e6e6 0.5px, transparent 0.5px);
-  background-size: 15px 15px;
+  background-image: 
+    radial-gradient(#e6e6e6 0.5px, transparent 0.5px),
+    linear-gradient(to right, rgba(56, 189, 248, 0.05), rgba(33, 150, 243, 0.05));
+  background-size: 15px 15px, 100% 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-pattern::before {
+  content: "";
+  position: absolute;
+  top: -10%;
+  right: -5%;
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+  background: linear-gradient(145deg, rgba(59, 130, 246, 0.08), rgba(16, 185, 129, 0.08));
+  z-index: 0;
+}
+
+.hero-pattern::after {
+  content: "";
+  position: absolute;
+  bottom: -15%;
+  left: -10%;
+  width: 80%;
+  height: 70%;
+  border-radius: 50%;
+  background: linear-gradient(145deg, rgba(236, 72, 153, 0.08), rgba(59, 130, 246, 0.08));
+  z-index: 0;
+}
+
+.animated-gradient-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(90deg, hsl(var(--primary)), hsl(var(--secondary)));
+  background-size: 200% 200%;
+  animation: gradient 8s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
 }
 
 .skill-badge {
