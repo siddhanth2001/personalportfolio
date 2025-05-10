@@ -1,0 +1,103 @@
+<portfolio_prompt>
+
+Modern Portfolio Website Prompt for Siddhanth Jain
+
+Introduction & Profile Summary:
+Create a modern, responsive personal portfolio website for Siddhanth Jain, a Computer Science graduate student at Portland State University, specializing in cloud computing, AI, and scalable web systems. He is passionate about building impactful, real-world solutions using DevOps, cloud infrastructure, and intelligent automation. The website should include a professional headshot prominently on the homepage.
+
+Website Structure and Content
+
+1. Home
+
+Hero section with a clean, welcoming message like “Hi, I’m Siddhanth Jain — Cloud & AI Enthusiast Building Scalable Solutions.”
+
+Profile picture, job-seeking status ("Actively seeking roles in Cloud/DevOps/Software Engineering"), and a CTA button (e.g., "View My Work" or "Download Resume").
+
+2. About
+
+Include the personal bio:
+
+I’m Siddhanth Jain, a passionate Computer Science graduate student at Portland State University with a strong foundation in cloud computing, data engineering, and software development. I thrive at the intersection of AI, DevOps, and scalable web systems, with hands-on experience building impactful solutions in public transportation, e-commerce, and intelligent automation. My goal is to create technology that solves real-world problems efficiently and intelligently. I’m a strong believer in continuous learning, collaboration, and building systems that are as elegant as they are functional.
+
+Academic background:
+
+M.S. in Computer Science, Portland State University, 2024–2025, GPA: 3.74
+
+B.E. in Computer Science, VTU, 2019–2023
+
+3. Skills
+
+Showcase with categorized icons or badges:
+
+Programming: Python, C++, JavaScript, Bash
+
+Web: HTML, CSS, React.js, Flask, Django
+
+Cloud & DevOps: AWS, GCP, Docker, Kubernetes, Terraform, Ansible, CI/CD (GitHub Actions, Jenkins)
+
+Databases: MySQL, PostgreSQL, MongoDB
+
+Systems & Networking: Linux, TCP/IP, multithreading
+
+Tools: Git, GitHub, GitLab, JIRA, Visual Studio, PyCharm
+
+4. Experience
+
+Timeline or cards layout with company logos:
+
+Research Assistant | Portland State University (Jan 2025 – Present)
+Focused on AI-powered recommendation systems for mobile, education, and healthcare.
+
+Front Desk Agent & IT Support | University Place Hotel (May 2024 – Present)
+Assisted guests and managed basic IT troubleshooting and coordination.
+
+Software Intern | Bionic Engineers (Sep 2022 – Jan 2023)
+Developed Django apps, CI/CD, REST APIs, and cloud deployment with a focus on security and performance.
+
+5. Projects
+Each project includes a title, tech stack tags, GitHub link, and a brief description:
+
+Trimet Transit Operations Analysis
+Python, PostgreSQL, GCP
+Real-time data analysis system for optimizing public transit; handled over 1M records/day.
+GitHub
+
+E-Commerce DevOps Implementation
+Docker, Kubernetes, Terraform, AWS
+Cloud-native microservices deployment using IaC and CI/CD for scalability.
+GitHub
+
+AI-powered Invoice Tracker
+Flask, GCP Vision API, Gemini Pro API
+Tool for automating receipt processing and organizing expenses using AI.
+GitHub
+
+6. Contact
+
+Simple form (Name, Email, Message)
+
+Static contact info:
+
+📧 siddhanthjain09@gmail.com
+
+📱 +1 971-895-3121
+
+🔗 LinkedIn
+
+💻 GitHub
+
+Design Elements
+
+Color Palette: Light theme with white/gray backgrounds, navy or teal accents
+
+Typography: Clean sans-serif fonts (Inter, Roboto, or Open Sans)
+
+Layout: Grid-based sections, scroll animations, responsive design for mobile
+
+Visuals: Subtle iconography for tech stack, modern UI for project cards, minimalistic forms
+
+Bonus: Add a downloadable resume link on the homepage and sticky top navigation bar for smooth UX
+
+This website should portray Siddhanth Jain as a capable, job-ready professional in the tech space—ideal for recruiters, hiring managers, or networking contacts to explore his skills and work efficiently.
+
+</portfolio_prompt>
