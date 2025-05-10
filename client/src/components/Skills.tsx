@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
-import { Code, Globe, Cloud, Database, Network, Bolt } from "lucide-react";
 
 interface SkillCategoryProps {
-  icon: React.ReactNode;
+  iconUrl: string;
   title: string;
   skills: string[];
   delay: number;
@@ -10,44 +9,44 @@ interface SkillCategoryProps {
 
 const skillCategories = [
   {
-    icon: <Code className="text-2xl text-primary" />,
+    iconUrl: "https://i.postimg.cc/PfLq77S2/image.png",
     title: "Programming",
     skills: ["Python", "C++", "JavaScript", "Bash"],
     delay: 0.1
   },
   {
-    icon: <Globe className="text-2xl text-primary" />,
+    iconUrl: "https://i.postimg.cc/MZhGJY4x/image.png",
     title: "Web",
     skills: ["HTML", "CSS", "React.js", "Flask", "Django"],
     delay: 0.2
   },
   {
-    icon: <Cloud className="text-2xl text-primary" />,
+    iconUrl: "https://i.postimg.cc/DzyvPpWQ/image.png",
     title: "Cloud & DevOps",
     skills: ["AWS", "GCP", "Docker", "Kubernetes", "Terraform", "Ansible", "CI/CD"],
     delay: 0.3
   },
   {
-    icon: <Database className="text-2xl text-primary" />,
+    iconUrl: "https://i.postimg.cc/HxrTfJ9V/image.png",
     title: "Databases",
     skills: ["MySQL", "PostgreSQL", "MongoDB"],
     delay: 0.4
   },
   {
-    icon: <Network className="text-2xl text-primary" />,
+    iconUrl: "https://i.postimg.cc/zXZqcGbG/image.png",
     title: "Systems & Networking",
     skills: ["Linux", "TCP/IP", "Multithreading"],
     delay: 0.5
   },
   {
-    icon: <Bolt className="text-2xl text-primary" />,
-    title: "Bolt",
+    iconUrl: "https://i.postimg.cc/sg3s3HJF/image.png",
+    title: "Tools",
     skills: ["Git", "GitHub", "GitLab", "JIRA", "Visual Studio", "PyCharm"],
     delay: 0.6
   }
 ];
 
-const SkillCategory = ({ icon, title, skills, delay }: SkillCategoryProps) => {
+const SkillCategory = ({ iconUrl, title, skills, delay }: SkillCategoryProps) => {
   return (
     <motion.div 
       initial={{ opacity: 0, y: 30 }}
@@ -57,8 +56,8 @@ const SkillCategory = ({ icon, title, skills, delay }: SkillCategoryProps) => {
       className="bg-background p-6 rounded-lg shadow-lg transition-all hover:shadow-xl"
     >
       <div className="flex items-center mb-6">
-        <div className="w-12 h-12 bg-primary bg-opacity-10 rounded-lg flex items-center justify-center mr-4">
-          {icon}
+        <div className="w-16 h-16 bg-primary bg-opacity-5 rounded-lg flex items-center justify-center mr-4 p-2">
+          <img src={iconUrl} alt={title} className="w-full h-full object-contain" />
         </div>
         <h3 className="text-xl font-bold text-primary">{title}</h3>
       </div>
@@ -92,7 +91,7 @@ const Skills = () => {
           {skillCategories.map((category, index) => (
             <SkillCategory 
               key={index}
-              icon={category.icon}
+              iconUrl={category.iconUrl}
               title={category.title}
               skills={category.skills}
               delay={category.delay}

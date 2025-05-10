@@ -15,7 +15,7 @@ const projects = [
     title: "Trimet Transit Operations Analysis",
     description: "Real-time data analysis system for optimizing public transit; handled over 1M records/day.",
     techStack: ["Python", "PostgreSQL", "GCP"],
-    imageUrl: "https://pixabay.com/get/gb70c52eddead6066cdd9449b1a1425ed5e65131a44704fa8ad80f2d4ce064cb3c0597030a23bf3dd80d02470a18315ff3a22ee87e27bf1c98a99cba5c15b34ff_1280.jpg",
+    imageUrl: "https://i.postimg.cc/528bJdzS/image.png",
     githubUrl: "https://github.com",
     delay: 0.1
   },
@@ -23,7 +23,7 @@ const projects = [
     title: "E-Commerce DevOps Implementation",
     description: "Cloud-native microservices deployment using IaC and CI/CD for scalability.",
     techStack: ["Docker", "Kubernetes", "Terraform", "AWS"],
-    imageUrl: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+    imageUrl: "https://i.postimg.cc/hvJR3Hgx/image.png",
     githubUrl: "https://github.com",
     delay: 0.2
   },
@@ -31,7 +31,7 @@ const projects = [
     title: "AI-powered Invoice Tracker",
     description: "Tool for automating receipt processing and organizing expenses using AI.",
     techStack: ["Flask", "GCP Vision API", "Gemini Pro API"],
-    imageUrl: "https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+    imageUrl: "https://i.postimg.cc/RFFkNjW8/image.png",
     githubUrl: "https://github.com",
     delay: 0.3
   }
