@@ -97,7 +97,7 @@ const Hero = () => {
               variants={fadeIn}
               className="text-2xl md:text-3xl font-medium text-foreground mb-6"
             >
-              <span className="text-primary">Cloud & AI Enthusiast</span> Building Scalable Solutions
+              <span className="text-primary">Delivering Real-World Impact with Cloud, Code, and AI</span>
             </motion.h2>
             
             <motion.p 
@@ -107,8 +107,7 @@ const Hero = () => {
               variants={fadeIn}
               className="text-muted-foreground mb-8 max-w-lg text-lg"
             >
-              Actively seeking roles in Cloud/DevOps/Software Engineering. 
-              Passionate about leveraging technology to solve real-world problems.
+              I’m a developer who enjoys turning ideas into reliable, real-world systems. My journey has taken me from building full-stack web apps to integrating AI for intelligent automation, and deploying those solutions on scalable cloud infrastructure using tools like AWS, GCP, Docker, and Kubernetes. Whether it's analyzing transit data, streamlining e-commerce operations, or automating invoices with machine learning, I focus on creating systems that are efficient, scalable, and meaningful.
             </motion.p>
             
             <motion.div 
@@ -150,7 +149,7 @@ const Hero = () => {
                 <Linkedin size={18} />
               </a>
               <a 
-                href="https://www.github.com" 
+                href="https://github.com/siddhanth2001" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 aria-label="GitHub" 
@@ -168,29 +167,7 @@ const Hero = () => {
             </motion.div>
             
             {/* Tech stack indicators */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.8, duration: 0.5 }}
-              className="mt-12 flex flex-wrap gap-2"
-            >
-              <Badge variant="outline" className="px-3 py-1 bg-background/60 backdrop-blur-sm flex items-center gap-1">
-                <Code size={12} className="text-primary" />
-                <span>Python</span>
-              </Badge>
-              <Badge variant="outline" className="px-3 py-1 bg-background/60 backdrop-blur-sm flex items-center gap-1">
-                <Cloud size={12} className="text-primary" />
-                <span>AWS</span>
-              </Badge>
-              <Badge variant="outline" className="px-3 py-1 bg-background/60 backdrop-blur-sm flex items-center gap-1">
-                <Database size={12} className="text-primary" />
-                <span>SQL</span>
-              </Badge>
-              <Badge variant="outline" className="px-3 py-1 bg-background/60 backdrop-blur-sm flex items-center gap-1">
-                <i className="fab fa-react mr-1 text-[#61DAFB]" style={{fontSize: "12px"}}></i>
-                <span>React</span>
-              </Badge>
-            </motion.div>
+            
           </div>
           
           {/* Right Side - Profile Image with Floating Skill Badges */}

@@ -16,7 +16,7 @@ const projects = [
     description: "Real-time data analysis system for optimizing public transit; handled over 1M records/day.",
     techStack: ["Python", "PostgreSQL", "GCP"],
     imageUrl: "https://i.postimg.cc/528bJdzS/image.png",
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/siddhanth2001/Trimet_transit_analysis",
     delay: 0.1
   },
   {
@@ -24,7 +24,7 @@ const projects = [
     description: "Cloud-native microservices deployment using IaC and CI/CD for scalability.",
     techStack: ["Docker", "Kubernetes", "Terraform", "AWS"],
     imageUrl: "https://i.postimg.cc/hvJR3Hgx/image.png",
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/siddhanth2001/E-Commerce-Devops-Implementation",
     delay: 0.2
   },
   {
@@ -32,7 +32,7 @@ const projects = [
     description: "Tool for automating receipt processing and organizing expenses using AI.",
     techStack: ["Flask", "GCP Vision API", "Gemini Pro API"],
     imageUrl: "https://i.postimg.cc/RFFkNjW8/image.png",
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/siddhanth2001/AI-Powered-Invoice-Tracker",
     delay: 0.3
   }
 ];

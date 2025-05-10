@@ -214,7 +214,7 @@ const Contact = () => {
                       <Linkedin size={20} />
                     </a>
                     <a 
-                      href="https://www.github.com"
+                      href="https://github.com/siddhanth2001"
                       target="_blank" 
                       rel="noopener noreferrer" 
                       aria-label="GitHub"
